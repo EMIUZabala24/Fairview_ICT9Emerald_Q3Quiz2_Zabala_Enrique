@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<link rel=”stylesheet” href="https://fonts.google.com/css?family-Dancing-Scrips">
+	<title>Q3 Quiz 2</title>
+	<style>
+		body{
+			color: white;
+			background-image: url(https://i.pinimg.com/originals/34/1e/80/341e800b1f29d3e34ea2eba5a6af205c.gif);
+			background-size: cover;
+			backdrop-filter: blur(10px);
+		}
+		table, td, th{
+			padding: 10px;
+			align-content: center;
+		}
+		.form-group{
+			align-content: center;
+		}
+		#brand{
+			height: 127px;
+			width: 217px;
+		}
+		.nav-link{
+			color: white;
+			font-size: 20px;
+		}
+		.search-container{
+			width: 30%;
+		}
+		.searchinput{
+			cursor: text;
+		}
+		.searchsub{
+			cursor: pointer;
+		}
+		#topnav{
+			width: 75%;
+		}
+		.navbar{
+			font-family: Arial;
+			padding: 0;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bd-dark">
+<a class="navbar-brand" href="#"><img height="125.5" width="160.5" src="https://www.digicelgroup.com/api/assets/digicel-personal/6a168426-f2ab-4835-8864-cce4886ec38c/"></a>
+<div id="topnav">
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Movies</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Shows</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Contact us</a>
+		</li>
+	</ul>
+</div>
+
+<div class="search-container">
+	<form>
+		<input type="search" placeholder="Search" name="search" class="searchinput">
+		<button type="submit" class="searchsub btn-success">Submit</button>
+	</form>
+</div>
+</nav>
+
+<center><h1>Movie Review</h1></center>
+<div class=" container-fluid">
+	<div class="row">
+	<div class="col-md-3"><br><br><br>
+		<img height="326" width="220" src="https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg">
+		<img height="326" width="220" src="https://upload.wikimedia.org/wikipedia/en/9/98/Freaky_Friday_%282003_film%29.png">
+		<img height="326" width="220" src="https://image.tmdb.org/t/p/original/kkORXK5rfpZGdBz0r2AASHC8dyG.jpg">
+	</div>
+
+<div class="col-md-6">
+	<table id="class">
+	<tr class=bg-info>
+		<th id="">Synopsis</th>
+		<th id="">Starring</th>
+		<th id="">Movie Reviews</th>
+	</td>
+	<tr>
+		<td><p><b>Titanic (1997)</b> is a romantic drama set against the backdrop of the ill-fated maiden voyage of the RMS Titanic. The film follows the whirlwind romance between Jack Dawson, a penniless artist, and Rose DeWitt Bukater, a young aristocrat, who meet aboard the luxurious ship. Despite their starkly different backgrounds, Jack and Rose find solace and love in each other's arms as they navigate the opulence and class divisions of the ship. However, their budding romance is tragically tested when the Titanic strikes an iceberg and begins to sink. Amidst chaos and despair, Jack and Rose must fight against time and societal constraints to survive and defy the odds, forging an unforgettable love story that transcends time and tragedy.</p></td>
+		<td>Kate Winslet as Rose<br>
+		    Leonardo DiCaprio as Jack</td>
+		<td><kbd>4.8</kbd><br>
+		⭐⭐⭐⭐</td>
+	</tr>
+	<tr>
+		<td><p><b>Freaky Friday (2003)</b> is a heartwarming comedy that follows the hilarious and touching journey of a mother and daughter who magically switch bodies. Dr. Tess Coleman, a career-driven therapist, and her teenage daughter Anna find themselves at odds with each other due to their differing perspectives on life. However, a mysterious fortune cookie at a Chinese restaurant causes them to swap bodies, leading to a series of comedic misadventures as they try to navigate each other's lives. As they walk in each other's shoes, Tess and Anna gain a newfound appreciation for the challenges they face and the bond they share as mother and daughter.</p></td>
+		<td>Lindsay Lohan as Anna Coleman<br>
+		    Jamie Lee Curtis as Tess Coleman</td>
+		<td><kbd>4.0</kbd><br>
+		⭐⭐⭐⭐</td>
+	</tr>
+	<tr>
+		<td><p><b>Barbie (2023)</b> and her doll counterparts inhabit a matriarchal society called Barbie Land, where Kens frolic at the beach while Barbies hold prestigious roles. When Barbie's perfection is disrupted by existential worries, she embarks on a journey with Ken to find her human owner, Sasha, in the real world to restore her identity. Along the way, they confront societal norms and stereotypes, leading to a revolution in Barbie Land where Barbies embrace autonomy and equality. Barbie ultimately chooses to become human and embarks on a new chapter in her journey, leaving behind a legacy of empowerment and self-discovery.</p></td>
+		<td>Margot Robbie as Barbie<br>
+		    Ryan Gosling as Ken</td>
+		<td><kbd>3.0</kbd><br>
+		⭐⭐⭐</td>
+	</tr>
+</table>
+
+<div class="form-group">
+	<div class="col-md-6">
+		Want to add a movie? send your email!
+	</div>
+	<div class="col-md-6">
+		<input type="text" class="form-control" id="email" placeholder="Enter Email" name="email">
+	</div>
+	<div class="col-md-6">
+		<button type="button" class="btn btn-outline-success">Send</button>
+	</div>
+</div>
+</div>
+</form>
+</body>
+</html>
